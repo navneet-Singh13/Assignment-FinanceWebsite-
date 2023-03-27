@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;500&display=swap");
+/*
+    NAVBAR CSS START 
+*/
+:root {
+  --green: #57b746;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  background-color: rgb(42, 42, 42);
+  color: #ffffff;
+  padding: 0 !important;
+}
+.nav-item a {
+  font-size: x-small;
+  color: whitesmoke;
+  padding: 5px;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  color: rgb(201, 201, 52);
+}
+.navbar-toggler-icon {
+  background-image: url("nav-icon.png");
+  padding: 0 !important ;
+  border: none;
+  color: none;
+}
+.navbar-toggler {
+  color: rgba(0, 0, 0, 0);
+}
+
+/*
+    NAVBAR CSS END 
+*/
+
+.nav-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.nav-header img {
+  width: 50px;
+}
+.nav-header div {
+  display: flex;
+  height: 30px;
+  width: 40%;
+  border: none;
+  background-color: white;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.nav-header div input {
+  width: 100%;
+  border: none;
+  font-size: small;
+  outline: none;
+}
+.nav-header div input::placeholder {
+  font-size: smaller;
+}
+#search-image {
+  width: 15px;
+}
+.nav-header button {
+  font-size: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  color: whitesmoke;
+  background-color: var(--green);
+}
+.container-1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.container-2 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+.subcontainer-1,
+.subcontainer-2 {
+  display: flex;
+  width: 80%;
+  margin: 80px auto;
+  justify-content: center;
+}
+.main-heading #details {
+  width: 70%;
+  font-size: small;
+}
+.main-heading .extra {
+  padding: 10px 10px 10px 0;
+  font-size: 7px;
+}
+.subcontainer-1 img {
+  width: 300px;
+  transform: translateY(-40px);
+}
+.main-heading button {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  border: none;
+  font-size: 8px;
+  padding: 5px 20px 5px 20px;
+  font-weight: bold;
+}
+.combtn-1 {
+  color: #ffffff;
+  background-color: var(--green);
+  border: none;
+}
+.main-heading #free {
+  background-color: aliceblue;
+  color: var(--green);
+}
+.highlight {
+  color: var(--green);
+  font-weight: bold;
+}
+.subcontainer-2 img {
+  margin-right: 150px;
+  width: 300px;
+  height: 200px;
+}
+.subcontainer-2 {
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.subcontainer-2 p {
+  max-width: 300px;
+  font-size: xx-small;
+}
+
+.subcontainer-2 .combtn-1 {
+  padding: 5px 40px 5px 40px;
+  border-radius: 3px;
+}
+.reverse {
+  flex-direction: row;
+}
+.reverse img {
+  margin-right: 0px;
+  margin-left: 150px;
+}
+.reverse p {
+  max-width: 300px;
+}
+.seperator {
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(94, 4, 94);
+  text-align: center;
+  color: whitesmoke;
+  height: 40px;
+  align-items: center;
+}
+.container-2 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  margin: 20px;
+  padding: 9px;
+  width: 350px;
+}
+.card h6 {
+  font-weight: bold;
+  padding: 4px;
+  margin-top: 9px;
+  font-size: 10px;
+}
+.card #class-mode {
+  border: solid rgb(77, 77, 77) 1px;
+  color: red;
+  padding: 4px 8px;
+  float: right;
+}
+
+.card .date {
+  margin-right: 80px;
+}
+.card .date-time {
+  font-size: x-small;
+  padding: 8px;
+}
+.more-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more-desc span {
+  font-size: small;
+}
+.more-desc .progress {
+  margin-top: 5px;
+  height: 8px;
+  width: 200px;
+}
+.progress-bar {
+  background-color: #57b746;
+}
+.more-desc .percent {
+  margin-left: 40px;
+}
+
+.class-content-des {
+  font-size: 10px;
+}
+.card button {
+  padding: 5px;
+  background-color: rgb(89, 168, 237);
+  margin: 20px 20px;
+  color: white;
+  border: none;
+  font-size: x-small;
+}
+.subcont1-3{ 
+   display: flex;
+   width: 100%;
+   flex-direction: row-reverse;
+   background-color: rgb(234, 234, 234);
+   height: 400px ;
+}
+.subcont1-3 div {
+    font-size: larger;
+    margin-top: 100px; 
+    margin-right: 20%;
+}
+.subcont1-3 button { 
+     background-color: black;
+     color: white;
+     padding: 5px 50px 5px 50px  ;
+     font-size: small;
+}
+
+.container-3 p { 
+    padding: 10px ;
+    text-align: center;
+}
+#img-6{ 
+    width: 100%;
+    height: 100%;
+}
+
+.subcont1-2{ 
+     display: flex;
+     margin: 20px auto;
+     width: 60%;
+     background: #ff00cc;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to left, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to left, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     height: 70vh ;
+     border-radius: 5px ;
+     justify-content: space-evenly;
+     flex-direction: row;
+    align-items: center;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    font-size: small;
+} 
+.subcont1-2 img{ 
+     width: 280px ;
+     height: 200px ;
+     border-radius: 10px ; 
+    
+     
+}
+.subcont1-2 div{ 
+     padding: 40px ;
+} 
+   
+    
+.subcont1-2 .exp{ 
+   padding: 5px 40px 5px 40px ;
+   width: 250px ;
+   border: none;
+   background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .subcontainer-1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 80px auto;
+  }
+  .main-heading #details {
+    width: 100%;
+    font-size: small;
+  }
+  .subcontainer-1 img {
+    width: 100%;
+    transform: translateY(-40px);
+  }
+  .subcontainer-2 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+  .subcontainer-2 {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .subcontainer-2 p {
+    width: 100%;
+  }
+
+  .reverse img {
+    margin: 50px auto;
+  }
+  .subcont1-3  {
+    font-size: larger;
+    justify-content: center;
+}
+ 
+.subcont1-2{ 
+    width: 100%;
+    height: 80vh;
+}
+.subcont1-2 img{ 
+    width: 100%;
+    height: 200px ;
+}
+}
